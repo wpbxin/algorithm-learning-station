@@ -11,7 +11,7 @@ package com.leetcode.questions;
  * Given "pwwkew", the answer is "wke", with the length of 3. Note that the
  * answer must be a substring, "pwke" is a subsequence and not a substring.
  * <p>
- * 问题描述：给定一个字符串，找出最长子不重复字串的长度
+ * 问题描述：给定一个字符串，找出最长不重复子串的长度
  * <p>
  * 思路描述：建立一个128的数组，存储字符的下标，min存储非重复子串的最小下标，max存储最大下标。如果下一个字符的下标大于min，则增加
  * 
