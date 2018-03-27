@@ -1,7 +1,5 @@
 package com.leetcode.questions;
 
-import java.util.Iterator;
-
 /**
  * <p>
  * Implement atoi to convert a string to an integer.
